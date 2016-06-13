@@ -1,0 +1,710 @@
+/* impostazioni principali del layout */
+
+body {
+    background-color: #e4e4e4;
+    font: 13px/20px "Open Sans", Arial, sans-serif;
+}
+
+#page {
+    background-color: white;
+}
+
+#header, #footer {
+    background-color: #135;
+    color: white;
+}
+
+#header {
+    background-image: url('../images/logo.png');
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+#footer p {
+    display: block; 
+    margin: auto;
+    text-align: center;
+}
+
+.validator {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+h2, h3, h4, h5, h6 {
+    font-variant: small-caps;
+    color: #135;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+a:link {
+    font-weight: bold;
+    text-decoration: none;
+    color: #157
+}
+
+a:visited {
+    text-decoration: none;
+    color: #135;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p.logout a:link, p.logout a:visited {
+    padding-left: 18px;
+}
+
+label {
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+    margin-right: 0.5em;
+}
+
+input {
+    border: 1px solid #135;
+}
+
+input[type=submit], button {
+    color: #ffffff;
+    background-color: #135;
+    height: 2em;
+    font-weight: bold;
+    border-radius: 1em;
+    border: 1px solid #135;
+    min-width: 100px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+input[type=submit]:hover, button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.input-form {
+    line-height: 3em;
+    border-bottom: 1px solid #135;
+    border-radius: 0em;
+}
+
+.input-form input[type=text], .input-form input[type=password] {
+    display: inline-block;
+    width:59%;
+}
+
+.input-form select {
+    display: inline-block;
+    width:59%;
+    border: 1px solid #135;
+    background-color: #ffffff;
+}
+
+.input-form input[type=submit], .input-form button {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.btn-group input[type=submit], .btn-group button {
+    display: inline-block;
+}
+
+.btn-group {
+    text-align: center;
+}
+
+.panel {
+    list-style: none;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.panel li {
+    display: block;
+}
+
+.panel li a {
+    display: block;
+    vertical-align: middle;
+    text-align: center;
+    width: 50%;
+    min-height: 100px;
+    padding: 0.8em 0.2em 0.8em 100px;
+    margin: 0.5em auto;
+    border: 2px outset #369;
+    border-radius: 0.5em;
+    line-height: 100px;
+    font-size: 150%;
+}
+
+.panel li a:hover {
+    text-decoration: none;
+    border: 2px inset #369;
+    
+}
+
+
+/* stile delle tabelle */
+
+table {
+    border: 1px solid #135;
+    border-collapse: collapse;
+    margin-top:10px;
+    line-height: 1.2em;
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+th, td {
+    border: 1px solid #135;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 0.3ex;
+}
+
+th {
+    background-color: #135;
+    color: white;
+    font-weight: bold;
+}
+
+.table-col {
+    width: 10%;
+}
+
+tr, td {
+    background-color: #e8ebee;
+}
+
+tr.alt-row, tr.alt-row td {
+    background-color: #bbc2ce;
+}
+
+
+/* decorazioni degli elementi */
+
+.xhtml {
+    padding-left: 20px;
+    margin-left: 10px;
+    background: url('../images/html5.png') no-repeat left center;
+}
+
+.css {
+    padding-left: 20px;
+    margin-left: 10px;
+    background: url('../images/css3.png') no-repeat left center;
+}
+ 
+p.logout {
+    background: url('../images/user-logout.png') no-repeat left center;
+}
+
+#logo {
+    text-shadow: 2px 2px 2px #123;
+}
+
+#sidebar {
+    background-color: #eef;
+    padding: 0.5em;
+    margin: 0.4em;
+}
+
+#sidebar ol, #sidebar ul {
+    padding-left: 1.2em;
+}
+
+.icon-title {
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    padding-left: 38px;
+    padding-top: 3px;
+    margin-top: 15px;
+}
+
+div, p {
+    border-radius: 1em;
+}
+
+#sidebar h2{
+    background-image: url('../images/help.png');
+ }
+ 
+#h-login {
+    background-image: url('../images/user.png');
+}
+
+#h-dati_personali {
+    background-image: url('../images/contacts_32.png');
+}
+    
+#h-password {
+    background-image: url('../images/password.png');
+}
+
+#h-home {
+    background-image: url('../images/home.png');
+}
+
+#h-tornei {
+    background-image: url('../images/tournament_32.png');
+}
+
+#h-elenco_tornei {
+    background-image: url('../images/tournament-list_32.png');
+}
+
+#h-registrazione {
+    background-image: url('../images/tournament-new_32.png');
+}
+
+#h-calendario {
+    background-image: url('../images/calendar.png');
+}
+
+#h-dettagli {
+    background-image: url('../images/zoom.png');
+}
+
+#h-cerca {
+    background-image: url('../images/edit-find.png');
+}
+
+#menu ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0em;
+}
+
+#menu ul li a:hover {
+    text-decoration: none;
+    background-color: #def;
+}
+
+#menu ul li.current_page_item a {
+    background-color: #fff;
+    color: #135;
+}
+
+.none {
+    list-style: none;
+}
+
+.no-space {
+    padding: 0px;
+    margin: 0px;
+}
+
+.clear {
+    clear: both; 
+    width: 0px; 
+    height: 0px;
+}
+
+.error li {
+    list-style: none;
+}
+
+
+/* stile per i messaggi di errore */
+
+.error {
+    width: 90%;
+    background-color: #f5a5a5;
+    border: 5px solid #9e1616;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.error div {
+    margin: 0px;
+    background: url('../images/dialog-error.png') no-repeat left top;
+    min-height: 32px;  
+}
+
+
+/* stile per i messaggi di conferma */
+
+.confirm {
+    width: 90%;
+    background-color: #c7edce;
+    border: 5px solid #36956e;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    margin-top: 5px;
+}
+.confirm div{
+    margin: 0px;
+    background: url('../images/dialog-ok-apply.png') no-repeat left top;
+    min-height: 32px;
+}
+
+
+/* social bar */
+
+.social {
+    display: inline-block;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.social p {
+    display: inline-block;
+    float: left;
+    padding: 0px;
+    margin: 0.4em 0.6em 0.2em;
+    line-height: 24px;
+}
+
+.social ul {
+    display: inline-block;
+    float: right;
+    padding: 0px;
+    margin: 0.5em 0.6em 0.4em;
+}
+
+.social ul li {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+
+.social ul li a:link {
+    color: transparent;
+}
+
+#facebook {
+    background-image: url('../images/facebook.png');
+    background-repeat: no-repeat;
+}
+
+#twitter {
+    background-image: url('../images/twitter.png');
+    background-repeat: no-repeat;
+}
+
+#linkedin {
+    background-image: url('../images/linkedin.png');
+    background-repeat: no-repeat;
+}
+
+
+/* gestione dei dispositivi */
+
+@media only screen and (min-width: 1024px) {
+
+    #page {
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+        margin-bottom:25px;
+        box-shadow: 0 0 10px rgba(0,0,0,.2);
+    }
+
+    #sidebar {
+        float: right;
+        width: 19%;
+    }
+
+    #content {
+        margin-left: 2%;
+        margin-right: 22%;
+        padding-bottom: 1em;
+        min-height: 300px;
+    }
+
+    /* header */
+
+    #header, #footer {
+        height: 100px;
+        position: relative;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 0em;
+    }
+    
+    #header {
+        padding-left: 1em;
+        clear: both;
+    }
+
+    #logo {
+        position: absolute;
+    }
+
+    #footer p {
+        position: absolute;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 900px;
+    }
+
+    #menu {
+        position: relative;
+        float: right;
+        display: inline-block;
+        margin-top: 0em;
+        padding-top: 0em;
+    }
+
+    #menu ul {
+        display: inline-block;
+        margin-top: 0em;
+        padding-top: 0em;
+    }
+
+    #menu ul li a {
+        padding: 0.2em 0.4em 0.3em;
+        background-color: #9cf;
+        border-radius: 0em;
+        border-bottom-left-radius: 1ex;
+        border-bottom-right-radius: 1ex;
+    }
+
+    div#logo h1 {
+        font-size: 36px;
+        height: 100px;
+        vertical-align: middle;
+        padding-left: 100px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 3em;
+        line-height: 100px;
+        color: #ffffff;
+        display: block;
+    }
+
+    #pnl-dati_personali {
+        background-image: url('../images/contacts_100.png');
+        background-repeat: no-repeat;
+        background-position: 15px 15px;
+    }
+
+    #pnl-tornei {
+        background-image: url('../images/tournament_100.png');
+        background-repeat: no-repeat;
+        background-position: 15px 15px;
+    }
+
+    #pnl-registrazione {
+        background-image: url('../images/tournament-new_100.png');
+        background-repeat: no-repeat;
+        background-position: 15px 15px;
+    }
+    
+    #pnl-elenco_tornei {
+        background-image: url('../images/tournament-list_100.png');
+        background-repeat: no-repeat;
+        background-position: 15px 15px;
+    }
+    
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+    
+    body {
+        font: 18px/20px "Open Sans", Arial, sans-serif;
+    }
+    
+    #header, #footer {
+        padding: 10px;
+        min-height: 50px;
+        position: relative;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 0px;
+        background-color: #135;
+    }
+
+    #sidebar {
+        float: right;
+        clear:both;
+        width: 12em;
+        padding-left: 5px;
+        padding-right: 10px;
+    }
+
+    #content {
+        margin-left: 0.5em;
+        margin-right: 14em;
+        padding-bottom: 10px;
+    }
+
+    #menu {
+        text-align: right;
+        padding-bottom: 0em;
+        margin-bottom: 0.2em;
+    }
+
+    #menu ul {
+        display: inline-block;
+        padding-left: 0em;
+        margin-bottom: 0em;
+    }
+
+    #menu ul li a {
+        position: relative;
+        display: inline-block;
+        list-style: none;
+        padding: 0.3em;
+        background-color: #9cf;
+        border-radius: 0.5em;
+    }
+
+/*    .social {
+        display: none;
+    }*/
+ 
+    div#logo h1 {
+        vertical-align: middle;
+        line-height: 50px;
+        padding-left: 10px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 5em;
+        color: #ffffff;
+        display: block;
+    }
+    
+    #pnl-dati_personali {
+        background-image: url('../images/contacts_100.png');
+        background-repeat: no-repeat;
+        background-position: 15px 15px;
+    }
+
+    #pnl-tornei {
+        background-image: url('../images/tournament_100.png');
+        background-repeat: no-repeat;
+        background-position: 15px 15px;
+    }
+
+    #pnl-registrazione {
+        background-image: url('../images/tournament-new_100.png');
+        background-repeat: no-repeat;
+        background-position: 15px 15px;
+    }
+    
+    #pnl-elenco_tornei {
+        background-image: url('../images/tournament-list_100.png');
+        background-repeat: no-repeat;
+        background-position: 15px 15px;
+    }
+
+    .panel li a {
+        width: 60%;
+        font-size: 130%;
+    }
+    
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+    body {
+        font: 18px/20px "Open Sans", Arial, sans-serif;
+    }
+    
+    #header, #footer {
+        padding: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 0px;
+        background-color: #135;
+    } 
+
+    #sidebar {
+        display: none;
+    }
+
+    #content {
+        padding-bottom: 10px;
+        padding: 4px;
+    }
+
+    #logo {
+        text-align: center;
+    }
+
+    #menu {
+        text-align: center;
+        padding-bottom: 0em;
+        margin-bottom: 0.2em;
+    }
+
+    #menu ul {
+        position: relative;
+        display: inline-block;
+        padding-left: 0em;
+        margin-bottom: 0em;
+    }
+
+    #menu ul li a {
+        position: relative;
+        display: inline-block;
+        list-style: none;
+        padding: 0.3em;
+        margin-bottom: 0.2em;
+        background-color: #9cf;
+        border-radius: 0.5em;
+    }
+
+    div#logo h1 {
+        vertical-align: middle;
+        line-height: 120%;
+        padding-left: 10px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        color: #ffffff;
+        display: block;
+    }
+
+    #pnl-dati_personali {
+        background-image: url('../images/contacts_48.png');
+        background-repeat: no-repeat;
+        background-position: 15px 15px;
+    }
+
+    #pnl-tornei {
+        background-image: url('../images/tournament_48.png');
+        background-repeat: no-repeat;
+        background-position: 15px 15px;
+    }
+
+    #pnl-registrazione{
+        background-image: url('../images/tournament-new_48.png');
+        background-repeat: no-repeat;
+        background-position: 15px 15px;
+    }
+    
+    #pnl-elenco_tornei {
+        background-image: url('../images/tournament-list_48.png');
+        background-repeat: no-repeat;
+        background-position: 15px 15px;
+    }
+
+    .panel li a {
+        width: 70%;
+        min-height: 48px;
+        padding-left: 48px;
+        line-height: 48px;
+        font-size: 120%;
+    }
+    
+}
