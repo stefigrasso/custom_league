@@ -4,7 +4,7 @@
 # attiva il rewrite engine per la nostra applicazione
 RewriteEngine On
 
-RewriteBase /~stef/custom_league/php
+#RewriteBase /~stef/custom_league/php
 
 # questa regola intercetta tutte le url del tipo 
 # http://mioserver/miapagina
