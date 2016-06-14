@@ -19,7 +19,7 @@ insert into utenti (id, ruolo, username, password, nome, cognome, email) values
 (6, 'partecipante', 'part5', 'grasso', 'part5', 'pinco', 'part5.pinco@customleague.it'),
 (7, 'partecipante', 'part6', 'grasso', 'part6', 'pinco', 'part6.pinco@customleague.it'),
 (8, 'partecipante', 'part7', 'grasso', 'part7', 'pinco', 'part7.pinco@customleague.it'),
-(9, 'partecipante', 'part8', 'grasso', 'part8', 'pinco', 'part8.pinco@customleague.it'),
+(9, 'partecipante', 'part8', 'grasso', 'part8', 'pinco', 'part8.pinco@customleague.it');
 
 -- --------------------------------------------------------
 

@@ -3,8 +3,7 @@ include_once 'ViewDescriptor.php';
 include_once basename(__DIR__) . '/../Settings.php';
 
 if (!$vd->isJson()) {
-    ?>
-    <!DOCTYPE html>
+    ?><!DOCTYPE html>
     <!-- 
          pagina master, contiene tutto il layout della applicazione 
          le varie pagine vengono caricate a "pezzi" a seconda della zona
