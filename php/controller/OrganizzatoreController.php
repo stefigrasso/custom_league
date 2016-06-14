@@ -645,7 +645,6 @@ class OrganizzatoreController extends BaseController {
     private function creaGironeItaliano($torneo, $msg) {
         $risultati = array();
         $num_iscritti = $torneo->getNumIscritti();
-        $num_iscritti_diviso = $num_iscritti / 2;
         $iscritti = $torneo->getIscritti();        
         
         $giornate_andata = array();
@@ -654,16 +653,16 @@ class OrganizzatoreController extends BaseController {
         $num_giornate = $num_iscritti - 1;
         
         for ($i = 0; $i < $num_giornate; ++$i) {
-            for ($j = 0; $j < $num_iscritti_diviso; ++$j) {
+            for ($j = 0; $j < ($num_iscritti / 2); ++$j) {
                 $match[] = $iscritti[$j];
-                $match[] = $iscritti[$j + $num_iscritti_diviso];
+                $match[] = $iscritti[$j + ($num_iscritti / 2)];
                 $giornata[] = $match;
                 $match = array();
             }
             $giornate_andata[] = $giornata;
             $giornata = array();
 
-            $centro = array_splice($iscritti, $num_iscritti_diviso - 1, 2);
+            $centro = array_splice($iscritti, ($num_iscritti / 2) - 1, 2);
             $perno = array_slice($iscritti, 0, 1);
             $perno[] = $centro[1];
             $coda = array_slice($iscritti, 1);
