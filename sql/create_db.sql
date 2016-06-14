@@ -1,3 +1,6 @@
+-- Gestione database remoto:
+-- http://spano.sc.unica.it/phpmyadmin
+
 drop database amm15_grassoStefania;
 
 create database amm15_grassoStefania;
