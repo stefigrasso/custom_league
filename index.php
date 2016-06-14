@@ -70,25 +70,32 @@
             <li>Utilizzo del pattern MVC </li>
             <li>Due ruoli (organizzatore e partecipante)</li>
             <li>Transazione per la creazione dei tornei (ruolo organizzatore) (metodo salvaElenco della classe TorneoFactory.php)</li>
-            <li>Caricamento ajax dei risultati della ricerca dei tornei (ruolo partecipante)</li>
+            <li>Caricamento AJAX dei risultati della ricerca dei tornei (ruolo partecipante)</li>
 
         </ul>
     </ul>
 
     <h2>Accesso al progetto</h2>
     <p>
-        La homepage del progetto si trova sulla URL <a href="php/login">http://spano.sc.unica.it/amm2015/grassoStefania/</a>
+        La homepage del progetto si trova sulla URL <a href="php/login">http://spano.sc.unica.it/amm2015/grassoStefania/php/login</a>
     <p>
     <p>Si pu&ograve; accedere alla applicazione con le seguenti credenziali</p>
     <ul>
-        <li>Ruolo organizzatore:</li>
+        <li>Ruolo 'organizzatore':</li>
         <ul>
             <li>username: organizzatore</li>
             <li>password: grasso</li>
         </ul>
-        <li>Ruolo partecipante:</li>
+        <li>Ruoli 'partecipante':</li>
         <ul>
             <li>username: partecipante</li>
+            <li>username: part2</li>
+            <li>username: part3</li>
+            <li>username: part4</li>
+            <li>username: part5</li>
+            <li>username: part6</li>
+            <li>username: part7</li>
+            <li>username: part8</li>
             <li>password: grasso</li>
         </ul>
     </ul>
